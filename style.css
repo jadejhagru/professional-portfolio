@@ -1,0 +1,104 @@
+/*CSS document*/
+
+body {
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+/*header and nav begins*/
+
+header {
+    padding: 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position:sticky;
+    position:-webkit-sticky;
+    margin-bottom: 20px;
+    top: 0px;
+    background-image: url("../professional-portfolio/header-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 35px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+.logo{ 
+    width: 100%;
+    height: 95vh;
+    background-image: url("../professional-portfolio/pink-image.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+/*header and nav ends*/
+
+.model{
+	height:300px;
+	position:absolute;
+	top:40px;
+	left:70%;
+    border-radius: 90%;
+    vertical-align: middle;
+}
+
+.text-container{
+    width:50%;
+	height:300px;
+	background:#ffffff;
+	border-radius:20px;
+	box-shadow:2px 2px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7%  auto 20px auto;
+	position: fixed;
+	justify-content:space-evenly;
+	align-items:center;
+}
