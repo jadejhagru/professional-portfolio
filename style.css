@@ -86,28 +86,40 @@ header h1 {
 	position:absolute;
 	top:40px;
 	left:70%;
-    border-radius: 90%;
-    vertical-align: middle;
+  border-radius: 90%;
+  vertical-align: middle;
 }
 .text-container{
 	width:60%;
 	height:250px;
-    font-size: 16px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 15px;
+  font-size: 16px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 15px;
 }
 /*projects*/
 
 .run-buddy {
     width: 900px;
-    height: 450px;
-    border: solid, black, 10px;
+    height: 500px;
+    
+}
+
+.run-buddy:hover {
+  width: 950px;
+  height: 550px;
+  transition: 1s;
 }
 
 .horiseon-challenge {
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 300px;
 
+}
+
+.horiseon-challenge:hover {
+  width: 650px;
+  height: 350px;
+  transition: 1s;
 }
  /*contact me*/
 
@@ -115,7 +127,7 @@ header h1 {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 16px;
      display: flex;
-     justify-content: space-evenly;
+     justify-content: space-between;
      align-items: center;
      text-decoration: underline;
  }
