@@ -92,9 +92,32 @@ header h1 {
 .text-container{
 	width:60%;
 	height:250px;
-    font-size: 12px;
+    font-size: 16px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
 }
- /*projects*/
+/*projects*/
+
+.run-buddy {
+    width: 900px;
+    height: 450px;
+    border: solid, black, 10px;
+}
+
+.horiseon-challenge {
+    width: 500px;
+    height: 250px;
+
+}
+ /*contact me*/
+
+ .contact {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 16px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     text-decoration: underline;
+ }
  
  
