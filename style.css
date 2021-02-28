@@ -24,7 +24,7 @@ a {
 }
 
 header {
-    padding: 15px 35px;
+    padding: 10px 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ header h1 {
     margin: 0;
     font-size: 35px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgb(245, 245, 245);
+    text-shadow: 0 0 10px rgb(152, 38, 187);
   }
   
   header a {
@@ -61,10 +61,10 @@ header h1 {
   }
   
   header nav ul li a {
-    padding: 10px 15px;
+    padding: 10px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(152, 38, 187);
   }
   
   header nav ul li a:hover {
@@ -111,11 +111,11 @@ h2 {
   width: 950px;
   height: 550px;
   transition: 1s;
-  -webkit-filter: brightness(1.20);
+  -webkit-filter: brightness(1.30);
   border: solid 15px #CCC;
   -moz-box-shadow: 5px 5px 0px #999;
   -webkit-box-shadow: 5px 5px 0px #999;
-  box-shadow: 5px 5px 0px #999;
+  box-shadow: 5px 5px 0px rgb(181, 67, 196);
 }
 
 .horiseon-challenge {
@@ -129,11 +129,11 @@ h2 {
   width: 650px;
   height: 350px;
   transition: 1s;
-  -webkit-filter: brightness(1.20);
+  -webkit-filter: brightness(1.35);
   border: solid 15px #CCC;
   -moz-box-shadow: 5px 5px 0px #999;
   -webkit-box-shadow: 5px 5px 0px #999;
-  box-shadow: 5px 5px 0px #999;
+  box-shadow: 5px 5px 0px rgb(181, 67, 196);
 }
  /*contact me*/
 
@@ -147,7 +147,7 @@ h2 {
      font-weight: bold;
      margin: 0;
      color: var(--primary-color);
-     text-shadow: 0 0 10px rgb(255, 255, 255);
+     text-shadow: 0 0 10px rgb(152, 38, 127);
  }
 
  .contact:hover {
