@@ -19,6 +19,9 @@ a {
 }
 
 /*header and nav begins*/
+.name{
+  font-size: 55px;
+}
 
 header {
     padding: 15px 35px;
@@ -30,7 +33,6 @@ header {
     margin-bottom: 20px;
     top: 0px;
     color: white;
-  
 }
 
 header h1 {
@@ -89,6 +91,12 @@ header h1 {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 15px;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 /*projects*/
@@ -103,6 +111,11 @@ header h1 {
   width: 950px;
   height: 550px;
   transition: 1s;
+  -webkit-filter: brightness(1.20);
+  border: solid 15px #CCC;
+  -moz-box-shadow: 5px 5px 0px #999;
+  -webkit-box-shadow: 5px 5px 0px #999;
+  box-shadow: 5px 5px 0px #999;
 }
 
 .horiseon-challenge {
@@ -116,12 +129,17 @@ header h1 {
   width: 650px;
   height: 350px;
   transition: 1s;
+  -webkit-filter: brightness(1.20);
+  border: solid 15px #CCC;
+  -moz-box-shadow: 5px 5px 0px #999;
+  -webkit-box-shadow: 5px 5px 0px #999;
+  box-shadow: 5px 5px 0px #999;
 }
  /*contact me*/
 
  .contact {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     font-size: 16px;
+     font-size: 18px;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -163,11 +181,64 @@ header h1 {
     font-size: 20px;
   }
 
+  .text-container {
+    font-size: 10px;
+  }
+  .run-buddy {
+     margin-right: 0;
+     margin-left: 15px
+  }
+  .horiseon-challenge {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .contact {
+
+  }
+
+  }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-   
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 10px;
+    }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
- 
- 
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 10px;
+    }
