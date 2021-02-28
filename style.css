@@ -205,12 +205,10 @@ h2 {
     font-size: 10px;
   }
   .run-buddy {
-     margin-right: 10px;
-     margin-left: 10px
+     flex: 0 100%;
   }
   .horiseon-challenge {
-    margin-left: 10px;
-    margin-right: 10px;
+     flex: 0 100%;
   }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -240,10 +238,8 @@ h2 {
       font-size: 10px;
     }
     .run-buddy {
-       margin-right: 10px;
-       margin-left: 10px;
+       flex: 0 100%;
     }
-    
+
     .horiseon-challenge {
-      margin-left: 10px;
-      margin-right: 10px;
+      flex: 0 100%;
