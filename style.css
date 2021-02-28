@@ -135,17 +135,39 @@ h2 {
   -webkit-box-shadow: 5px 5px 0px #999;
   box-shadow: 5px 5px 0px rgb(181, 67, 196);
 }
+
+/*resume*/
+
+.resume-picture {
+  width: 150px;
+  height: 150px;
+}
+
+.resume-picture:hover{
+  width: 200px;
+  height: 200px;
+  transition: 1s;
+  -webkit-filter: brightness(1.35);
+  border: solid 15px #CCC;
+  -moz-box-shadow: 5px 5px 0px #999;
+  -webkit-box-shadow: 5px 5px 0px #999;
+   box-shadow: 5px 5px 0px rgb(181, 67, 196);
+}
+}
+
  /*contact me*/
+
+ section {
+   flex-direction: row;
+ }
 
  .contact {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 18px;
      display: flex;
      justify-content: space-between;
-     align-items: center;
      text-decoration: none;
      font-weight: bold;
-     margin: 0;
      color: var(--primary-color);
      text-shadow: 0 0 10px rgb(152, 38, 127);
  }
