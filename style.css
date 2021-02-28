@@ -83,6 +83,8 @@ header h1 {
 	left:70%;
   border-radius: 90%;
   vertical-align: middle;
+  display: flex;
+  flex-wrap: wrap;
 }
 .text-container{
 	width:60%;
@@ -105,6 +107,8 @@ h2 {
     width: 900px;
     height: 500px;
     border: solid rgb(255, 255, 255) 5px;  
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .run-buddy:hover {
@@ -122,6 +126,8 @@ h2 {
     width: 600px;
     height: 300px;
     border: solid rgb(255, 255, 255) 5px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -184,6 +190,7 @@ h2 {
     padding-bottom: 0;
     justify-content: center;
     position: relative;
+    width: 100%;
   }
 
   header h1 {
@@ -199,25 +206,38 @@ h2 {
 
   header nav ul li a {
     font-size: 20px;
+    width: 100%;
   }
 
   .text-container {
     font-size: 10px;
+    width: 100%
   }
   .run-buddy {
      flex: 0 100%;
+     width: 200px;
+     height: 200px
   }
   .horiseon-challenge {
      flex: 0 100%;
+     width: 200px;
+     height: 200px;
+  }
+  .model {
+    width: 200px;
+    height: 200px; 
+    position: absolute;
+
   }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 575px) {
-    header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-    }
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
   
     header h1 {
       width: 100%;
@@ -239,7 +259,18 @@ h2 {
     }
     .run-buddy {
        flex: 0 100%;
+       width: 200px;
+       height: 200px;
     }
 
     .horiseon-challenge {
       flex: 0 100%;
+      width: 200px;
+      height: 200px;
+    }
+
+    .model {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+    }
