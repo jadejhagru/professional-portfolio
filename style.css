@@ -106,9 +106,10 @@ h2 {
 .run-buddy {
     width: 900px;
     height: 500px;
-    border: solid rgb(255, 255, 255) 5px;  
+    border: rgb(255, 255, 255) 5px;  
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .run-buddy:hover {
@@ -116,7 +117,7 @@ h2 {
   height: 550px;
   transition: 1s;
   -webkit-filter: brightness(1.30);
-  border: solid 15px #CCC;
+  border: 8px #CCC;
   -moz-box-shadow: 5px 5px 0px #999;
   -webkit-box-shadow: 5px 5px 0px #999;
   box-shadow: 5px 5px 0px rgb(181, 67, 196);
@@ -125,10 +126,9 @@ h2 {
 .horiseon-challenge {
     width: 600px;
     height: 300px;
-    border: solid rgb(255, 255, 255) 5px;
+    border: rgb(255, 255, 255) 5px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .horiseon-challenge:hover {
@@ -136,7 +136,25 @@ h2 {
   height: 350px;
   transition: 1s;
   -webkit-filter: brightness(1.35);
-  border: solid 15px #CCC;
+  border: 8px #CCC;
+  -moz-box-shadow: 5px 5px 0px #999;
+  -webkit-box-shadow: 5px 5px 0px #999;
+  box-shadow: 5px 5px 0px rgb(181, 67, 196);
+}
+
+.fitness {
+  width: 600px;
+    height: 300px;
+    border: rgb(255, 255, 255) 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .fitness:hover {
+  width: 650px;
+  height: 350px;
+  transition: 1s;
+  -webkit-filter: brightness(1.35);
+  border: 8px #CCC;
   -moz-box-shadow: 5px 5px 0px #999;
   -webkit-box-shadow: 5px 5px 0px #999;
   box-shadow: 5px 5px 0px rgb(181, 67, 196);
@@ -154,7 +172,7 @@ h2 {
   height: 200px;
   transition: 1s;
   -webkit-filter: brightness(1.35);
-  border: solid 15px #CCC;
+  border: 5px #CCC;
   -moz-box-shadow: 5px 5px 0px #999;
   -webkit-box-shadow: 5px 5px 0px #999;
    box-shadow: 5px 5px 0px rgb(181, 67, 196);
@@ -274,3 +292,4 @@ h2 {
       height: 200px;
       position: absolute;
     }
+  }
